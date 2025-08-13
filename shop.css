@@ -1,0 +1,46 @@
+.navbar-brand{
+
+    margin-left: 70px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.val input{
+    display: none;
+}
+.card{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
+.val{
+    width: 30%;
+    padding: 20px;
+    box-shadow: 1px 1px 10px silver;
+    margin-top: 50px;
+}
+
+.hh{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+main{
+    width:40% ;
+    margin-top: 30px;
+}
+.table{
+    box-shadow:1px 1px 10px silver;
+}
+thead{
+    background-color:rgb(40, 49, 87) ;
+    color: #fff;
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.main{
+    width: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: var(--black);
+    border-radius: 10px;
+    padding: 30px 40px;
+    }
+    .main input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, 2);
+        border-radius: 40px;
+        font-size: 16px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+        background-color: var(--light-bg);
+
+    }
+    .main h3{
+        margin-bottom: 10px;
+        font-size: 30px;
+        color: var(--black);
+        text-transform: uppercase;
+
+    }
+
+    .btn{
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px 30px;
+        color: var(--white);
+        display: block;
+        cursor: pointer;
+        font-size: 20px;
+
+
+    }
+    .btn{
+        background-color: var(blue);
+    }
+    .btn:hover{
+        background-color: var(--dark-blue);
+    }
+
+
+.main form p{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+    color: var(--black);
+}
+.main p a{
+    /* color: var(--black); */
+    text-decoration: none;
+    font-weight: 600;
+}
+.main p a :hover{
+    text-decoration: underline;
+
+}
